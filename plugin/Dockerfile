@@ -1,2 +1,2 @@
-FROM nodered/node-red-docker:slim-v10
+FROM nodered/node-red-docker
 RUN npm install node-red-contrib-thinger
