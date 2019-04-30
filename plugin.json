@@ -17,7 +17,9 @@
     "node_red_plugin" : {
       "name" : "Access from Node-RED to Thinger.io",
       "allow" : {
-        "*" : "*"
+        "*" : {
+          "*" : "*"
+        }
       }
     }
   },
