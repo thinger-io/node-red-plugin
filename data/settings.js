@@ -271,5 +271,11 @@ module.exports = {
             // To enable the Projects feature, set this value to true
             enabled: true
         }
-    }
-}
+    },
+
+    // Thinger.io Configuration
+    thingerHost: process.env.THINGER_HOST || 'api.thiger.io',
+    thingerSSL: false,
+    thingerCredentials: process.env.THINGER_TOKEN_NODE_RED_PLUGIN || ''
+
+};
