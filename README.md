@@ -17,7 +17,7 @@ Thinger.io plugin for integrating Node-Red flows inside Thinger.io.
 * Node-Red is not limited, so you can install any node for create complex IoT flows. 
 
 
-## Screenshoots
+## Screenshots
 
 <img src="https://user-images.githubusercontent.com/1141353/57460918-4d4b5200-7276-11e9-8d1e-856f7a0d2f81.png" width="1024px">
 
