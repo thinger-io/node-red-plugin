@@ -13,7 +13,7 @@
     "description" : "Node-RED integration for Thinger.io",
     "image" : "https://user-images.githubusercontent.com/1141353/57460672-dada7200-7275-11e9-91d1-11cdb560c758.png",
     "fa_icon" : "fas fa-code-branch",
-    "color": "#8B0001"
+    "color": "#fe5d5f"
   },
   "tokens" : {
     "node_red_plugin" : {
