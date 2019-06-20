@@ -1,6 +1,6 @@
 {
   "name" : "node-red",
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "description" : "Plugin for Node-RED integration",
   "author" : "Alvaro Luis Bustamante",
   "license" : "MIT",
@@ -18,7 +18,9 @@
     "node_red_plugin" : {
       "name" : "Access from Node-RED to Thinger.io",
       "allow" : {
-        "*" : "*"
+        "*" : {
+          "*": "*"
+        }
       }
     }
   },
