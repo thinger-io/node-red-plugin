@@ -1,2 +1,2 @@
-FROM nodered/node-red:latest-12
-RUN npm install https://github.com/thinger-io/Node-RED.git#1.0.2
+FROM nodered/node-red:2.0.6-14
+RUN npm install node-red-contrib-thinger
