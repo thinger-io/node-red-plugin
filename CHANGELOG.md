@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Updated Node-RED version to 2.0.6
 - Updated Node.js to version 14
-
+- Installation from npm instead of repository
 
 ## [1.0.2] - 2020-07-10
 ### Changed
