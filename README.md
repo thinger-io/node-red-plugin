@@ -5,6 +5,7 @@ Thinger.io plugin for integrating Node-Red flows inside Thinger.io.
 <img src="https://user-images.githubusercontent.com/1141353/57460672-dada7200-7275-11e9-91d1-11cdb560c758.png" width="150px">
 
 ### Thinger.io features
+- Iterate over the assets from the Thinger.io Platform (asset iterator node).
 - Create buckets when an event occurs (bucket create node).
 - Read from data buckets (bucket read node).
 - Writing to data buckets (bucket write node).
@@ -16,7 +17,7 @@ Thinger.io plugin for integrating Node-Red flows inside Thinger.io.
 - Calling endpoints (endpoint call node).
 - Reading properties of devices, types or groups (property read node).
 - Writing and modifying properties of devices, types or groups (property write node).
-- Detecting different events of devices, buckets and endpoints (server events node).
+- Detecting different events of devices, buckets, endpoints and others (server events node).
 
 ### Node-RED limitation
 
