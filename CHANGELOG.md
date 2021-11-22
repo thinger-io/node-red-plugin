@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2021-11-22
+### Changed
+- Updated Node-RED version to 2.1.3
+- Updated Node.js to version 14
+- Bumped node-red-contrib-thinger to 1.2.0
+
 ## [1.1.0] - 2021-09-14
 ### Changed
 - Updated Node-RED version to 2.0.6
