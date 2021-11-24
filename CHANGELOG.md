@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.2.3] - 2021-11-24
+### Changed
+- Bumped node-red-contrib-thinger to 1.2.4
+- Set module version in dockerfile to avoid docker image layer caching
+
+## [1.2.2] - 2021-11-23
+### Changed
+- Bumped node-red-contrib-thinger to 1.2.2
+
 ## [1.2.1] - 2021-11-22
 ### Changed
 - Bumped node-red-contrib-thinger to 1.2.1
