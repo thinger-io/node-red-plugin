@@ -2,8 +2,10 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
+## [1.3.1] - 2022-02-01
 ### Changed
-- Bumped node-red-contrhib-thinger to 1.3.1-alpha.1
+- Bumped node-red-contrhib-thinger to 1.3.1
 - Bumped Node-RED version to 2.1.6
 
 ## [1.3.0] - 2021-12-22
