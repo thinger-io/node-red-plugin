@@ -18,11 +18,11 @@ Thinger.io plugin for integrating Node-Red flows inside Thinger.io.
 - Reading properties of devices, types or groups (property read node).
 - Writing and modifying properties of devices, types or groups (property write node).
 - Detecting different events of devices, buckets, endpoints and others (server events node).
+- Read files (plain, csv, json, images, ...) from storages (read storage node).
 
 ### Node-RED limitation
 
 * Node-Red is not limited, so you can install any additional library for creating complex IoT flows. 
-
 
 ## Screenshots
 
