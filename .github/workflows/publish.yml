@@ -62,7 +62,7 @@ jobs:
         echo "::set-output name=prerelease::$prerelease"
 
     - name: Create GitHub release
-      if: ! ${{ steps.is_prerelease.outputs.prerelease }} # Don't release or tag on alpha, as thinger will get the new tag as a version
+      if: ${{ ! steps.is_prerelease.outputs.prerelease }} # Don't release or tag on alpha, as thinger will get the new tag as a version
       uses: ncipollo/release-action@v1
       with:
         prerelease: ${{ steps.is_prerelease.outputs.prerelease }}
