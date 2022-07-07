@@ -271,7 +271,7 @@ module.exports = {
             // To enable the Projects feature, set this value to true
             enabled: false
         },
-        codeEditor: { lib: 'monaco' ]
+        codeEditor: { lib: 'monaco' }
     },
 
     // Thinger.io Configuration
