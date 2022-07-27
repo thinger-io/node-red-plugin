@@ -245,6 +245,33 @@ module.exports = {
     // If not set, the following default order is used:
     paletteCategories: ['thinger', 'subflows', 'input', 'output', 'function', 'social', 'mobile', 'storage', 'analysis', 'advanced'],
 
+    /** Configure diagnostics options
+     * - enabled:  When `enabled` is `true` (or unset), diagnostics data will
+     *   be available at http://localhost:1880/diagnostics
+     * - ui: When `ui` is `true` (or unset), the action `show-system-info` will
+     *   be available to logged in users of node-red editor
+    */
+    diagnostics: {
+        /** enable or disable diagnostics endpoint. Must be set to `false` to disable */
+        enabled: true,
+        /** enable or disable diagnostics display in the node-red editor. Must be set to `false` to disable */
+        ui: false,
+    },
+
+    /** Configure runtimeState options
+     * - enabled:  When `enabled` is `true` flows runtime can be Started/Stoped
+     *   by POSTing to available at http://localhost:1880/flows/state
+     * - ui: When `ui` is `true`, the action `core:start-flows` and
+     *   `core:stop-flows` will be available to logged in users of node-red editor
+     *   Also, the deploy menu (when set to default) will show a stop or start button
+     */
+   runtimeState: {
+        /** enable or disable flows/state endpoint. Must be set to `false` to disable */
+        enabled: true,
+        /** show or hide runtime stop/start options in the node-red editor. Must be set to `false` to hide */
+        ui: true,
+    },
+
     // Configure the logging output
     logging: {
         // Only console logging is currently supported
