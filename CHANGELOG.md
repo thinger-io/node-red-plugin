@@ -3,9 +3,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
-## [1.4.0] - 2022-07-07
+## [1.4.0] - 2022-07-27
 ### Changed
-- Bumped node-red to 3.0.0
+- Bumped node-red to 3.0.1
 - Bumped node-red-contrib-thinger to 1.4.0
 - Updated Node.js to version 16
 
