@@ -25,7 +25,7 @@ jobs:
 
     - name: Get tag version
       run: |
-        echo "tag_version=`awk '/^## \[[0-9]+/' CHANGELOG.md | awk 'NR==1 && -F"\[\]" {print $2}' 2>/dev/null | tail -c +2 | head -c -2`" >> $GITHUB_ENV
+        echo "tag_version=`awk '/^##/ {{print substr($2, 1, length($2))}}' CHANGELOG.md | head -n1`" >> $GITHUB_ENV
 
     - name: Check if tag is for develop and if it already exists
       run: |
@@ -62,7 +62,7 @@ jobs:
         echo "::set-output name=prerelease::$prerelease"
 
     - name: Create GitHub release
-      if: ${{ ! steps.is_prerelease.outputs.prerelease }} # Don't release or tag on alpha, as thinger will get the new tag as a version
+      if: ${{ steps.is_prerelease.outputs.prerelease == 'false' }} # Don't release or tag on alpha, as thinger will get the new tag as a version
       uses: ncipollo/release-action@v1
       with:
         prerelease: ${{ steps.is_prerelease.outputs.prerelease }}
